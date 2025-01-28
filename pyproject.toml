@@ -1,0 +1,11 @@
+[project]
+name = "pyvenv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "parquet-tools>=0.2.16",
+    "pyarrow>=19.0.0",
+    "typer>=0.15.1",
+]
